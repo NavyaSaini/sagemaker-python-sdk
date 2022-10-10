@@ -25,7 +25,6 @@ from sagemaker.processing import ScriptProcessor
 from sagemaker.sklearn import defaults
 from sagemaker.workflow.entities import PipelineVariable
 
-
 class SKLearnProcessor(ScriptProcessor):
     """Handles Amazon SageMaker processing tasks for jobs using scikit-learn."""
 
